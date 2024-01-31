@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juego dados</title>
+
+    <script>
+
+let val1 = Math.floor(Math.random()*6+1);
+let val2 = Math.floor(Math.random()*6+1);
+let val3 = Math.floor(Math.random()*6+1);
+let val4 = Math.floor(Math.random()*6+1);
+
+        let apuesta = prompt("ingrese el valor de la apuesta")
+
+
+        alert("el resultado de los dos dados del jugador uno fue: "+val1+" y "+val2)
+        alert("el resultado de los dos dados del jugador dos fue: "+val3+" y "+val4)
+        
+        let uno = val1+val2
+        let dos = val4+val3
+        if(uno>dos){
+            alert("el jugador uno es el ganador, a ganado la apuesta de: "+apuesta)
+        } else{
+            alert("el jugador dos es el ganador, a ganado la apuesta de: "+apuesta)
+        }
+        
+
+    </script>
+</head>
+<body>
+    
+    
+</body>
+</html>
